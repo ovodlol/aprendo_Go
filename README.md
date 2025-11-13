@@ -10,3 +10,5 @@
 
     - capitulo1
         básico de Go: tipos, structs, interfaces, ponteiros e goroutimes
+    - capitulo2
+        testes logs: testfy(acho que é a mais popular), testing(biblioteca padrão Go)

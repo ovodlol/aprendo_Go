@@ -1,6 +1,6 @@
 package main
 /*
-		Base no https://gobyexample.com/interfaces
+		Base no "https://gobyexample.com/interfaces"
 		um exemplo simples só para aprender interfaces
 		talves melhore o exemplo no futuro colocando
 		em prática o effective Go.
