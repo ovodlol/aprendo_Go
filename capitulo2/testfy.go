@@ -13,9 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestAdd(t *testing.T) {
-	conta  := 2 + 2
+func Test(t *testing.T) {
+	valor := conta(2, 4, 3)
 	espera := 4
-  assert.Equal(t, espera, conta)
+  assert.Equal(t, espera, valor)
 }
 
+func conta(x, y, z int) int {
+	return x * y / z
+}

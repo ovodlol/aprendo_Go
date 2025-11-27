@@ -1,12 +1,12 @@
 package main
-/*Aprendo Go:
-		Só minhas anotações e práticas sobre golang dividido em capitulos
-		capitulo 1 Interfaces
+
+/*  Aprendo Go:
+Só minhas anotações e práticas sobre golang dividido em capitulos
 */
 
 import (
 	"fmt"
-	//
+	"os"
 )
 
 func main() {
@@ -14,5 +14,14 @@ func main() {
 	  Aprendo Go
 
 	Anotações, práticas e muito mais,
-	para dominar Go :3`)
+	para eu dominar Go :3
+
+	`)
+
+	file, err := os.ReadFile("README.md")
+	if err != nil {
+		fmt.Print("o README.md não tá aqui!!!")
+	}
+
+	fmt.Println(string(file))
 }

@@ -13,20 +13,13 @@ import (
 
 var mensagem string
 
-func logado(msg *string) {
-	*msg = fmt.Sprintf("%v aprendo_Go: %s\n", time.Now(), "oi mundo")
+func logarei(msg *string) {
+	ano := time.Now().Format("01/02 15:04:05")
+	*msg = fmt.Sprintf("%v aprendo_Go: %s\n", ano,  "oi mundo")
 }
 
 func main() {
-	logado(&mensagem) 
+	logarei(&mensagem) 
 
 	fmt.Println(mensagem)
-
-	logado(&mensagem)
-
-	logarei(&mensagem)
-}
-
-func logarei(msg *string) {
-	println(*msg)
 }

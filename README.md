@@ -4,11 +4,17 @@
 
     eles estão separados em capitulos
 
----
+----------
 ## Capitulos?
     não sei quantos vai ter, mas tem 
 
     - capitulo1
-        básico de Go: tipos, structs, interfaces, ponteiros e goroutimes
+        Básico de Go: tipos, structs, interfaces, ponteiros, goroutimes, etc.
     - capitulo2
-        testes logs: testfy(acho que é a mais popular), testing(biblioteca padrão Go)
+        Tests e logs: biblioteca de log e test.
+    - capitulo3
+        CLI Go: flags, TUIs, etc.
+    - capitulo4
+        MySQL com Go: MySQL, MySQL e só.
+    - capitulo5
+        Algoritmos em Go.
